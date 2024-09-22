@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Ferdinando Pedrini | Back-End Developer</title>
+   <link href="./css/header.css" rel="stylesheet" />
+   <link href="./css/main.css" rel="stylesheet" />
+   <link href="./css/home.css" rel="stylesheet" />
+   <link href="./css/about.css" rel="stylesheet" />
+   <link href="./css/service.css" rel="stylesheet" />
+   <link href="./css/portfolio.css" rel="stylesheet" />
+   <link href="./css/contact.css" rel="stylesheet" />
+   <link href="./css/footer.css" rel="stylesheet" />
+</head>
+
+<body>
+   <header>
+      <div class="container">
+         <div class="row">
+
+            <div class="hamburger">
+               <i class="fa fa-bars"></i>
+            </div>
+            <div class="navbar">
+               <ul>
+                  <li><a href="#home" class="active">Inicio</a></li>
+                  <li><a href="#about">Acerca de</a></li>
+                  <li><a href="#services">Servicios</a></li>
+                  <li><a href="#portfolio">Portfolio</a></li>
+                  <li><a href="#contact">Contacto</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </header>
+   <section class="home" id="home">
+      <div class="container">
+         <div class="row full-screen">
+            <div class="home-content">
+               <div class="block">
+                  <h6>Hola, mi nombre es</h6>
+                  <h1>Ferdinando Pedrini</h1>
+                  <h3>Soy programador back-end</h3>
+                  <div class="cv-btn">
+                     <a href="#">Descargar CV</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="about" id="about">
+      <div class="container">
+         <div class="row">
+            <div class="title">
+               <h1>Sobre Mi</h1>
+            </div>
+         </div>
+         <div class="row">
+            <div class="about-content">
+               <div class="row">
+                  <div class="img">
+                     <img src="img/me.png" alt='me' />
+                  </div>
+                  <div class="text">
+                     <h4>Soy Ferdinando Pedrini</h4>
+                     <h6>Un <span>programador back-end</span> viviendo en
+                        Buenos Aires, Argentina
+                     </h6>
+                     <p>Soy un apasionado por la creación y desarrollo de productos únicos. Me
+                        especializo
+                        en construir sitios web para pequeñas y medianas empresas, asegurándome de que mi código sea
+                        limpio, legible, modular y bien estructurado.
+                        Mi enfoque está en la
+                        programación backend en .NET, tanto en desarrollo web como en el diseño de aplicaciones.
+                     </p>
+                     <div class="skills">
+                        <h6>Un poco más sobre mis conocimientos:</h6>
+                        <div class="skills-list">
+                           <ul class="fa-ul">
+                              <li><span class="fa-li"><i class="fas fa-check-square"></i></span>JavaScript</li>
+                              <li><span class="fa-li"><i class="fas fa-check-square"></i></span>HTML5</li>
+                              <li><span class="fa-li"><i class="fas fa-check-square"></i></span>CSS</li>
+                              <li><span class="fa-li"><i class="fas fa-check-square"></i></span>C#</li>
+                              <li><span class="fa-li"><i class="fas fa-check-square"></i></span>SQL</li>
+                           </ul>
+
+                        </div>
+                     </div>
+                     <div class="social">
+                        <a href=""><i class="fa fa-facebook"></i></a>
+                        <a href=""><i class="fa fa-twitter"></i></a>
+                        <a href=""><i class="fa fa-instagram"></i></a>
+                        <a href=""><i class="fa fa-github"></i></a>
+                        <a href=""><i class="fa fa-linkedin"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+   </section>
+   <section class="services" id="services">
+      <div class="container">
+         <div class="row">
+            <div class="title text-center">
+               <h1>Servicios</h1>
+            </div>
+         </div>
+         <div class="row">
+            <div class="service-content">
+               <div class="box">
+                  <div class="icon"><i class="fa fa-laptop"></i></div>
+                  <h5>Diseño Web</h5>
+                  <p>Diseño soluciones que van desde sencillas páginas de inicio hasta tiendas de comercio electrónico
+                     completas, siempre ajustándome a las necesidades de tu negocio.
+                  </p>
+               </div>
+
+
+               <div class="box">
+                  <div class="icon"><i class="fas fa-wallet"></i></div>
+                  <h5>Aplicaciones de Negocio</h5>
+                  <p>Adopto un enfoque innovador en el desarrollo de aplicaciones empresariales en .NET, integrándolas
+                     con bases de datos SQL para ofrecer soluciones eficientes y avanzadas.
+                  </p>
+               </div>
+               <div class="box">
+                  <div class="icon"><i class="fa fa-mobile"></i></div>
+                  <h5>Interfaces</h5>
+                  <p>Doy lo mejor de mí para crear diseños llamativos e interfaces de usuario destacadas.
+                  </p>
+               </div>
+
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="portfolio" id="portfolio">
+      <div class="container">
+         <div class="row">
+            <div class="title text-center">
+               <h1>Últimos trabajos</h1>
+            </div>
+         </div>
+         <div class="row">
+            <div class="filter-btn">
+               <ul id="filterBtn">
+                  <li class="active" data-target="all">Todos</li>
+
+               </ul>
+            </div>
+         </div>
+         <div class="row">
+            <div class="gallery">
+               <div class="item" data-id="web">
+                  <div class="inner">
+                     <img src="./img/portfolio/web.jpg" alt="portfolio" />
+                     <div class="overlay">
+                        <span class="fa fa-plus"></span>
+                        <h4>Aplicación de escritorio</h4>
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </div>
+      </div>
+      </div>
+
+   </section>
+
+
+
+   <section class="contact" id="contact">
+      <div class="container">
+         <div class="row">
+            <div class="title text-center">
+               <h1>CONTACTATE CONMIGO</h1>
+            </div>
+         </div>
+         <div class="row">
+            <div class="contact-form">
+               <div class="row">
+                  <div class="contact-text">
+                     <h2>Dejame un mensaje</h2>
+                     <p>Siempre estoy disponible, te responderé a la brevedad</p>
+                  </div>
+               </div>
+               <div class="row space-between">
+                  <div class="col-6">
+                     <input type="text" class="form-control" name="" placeholder="Nombre" />
+                  </div>
+                  <div class="col-6">
+                     <input type="text" class="form-control" name="" placeholder="Email" />
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-12">
+                     <textarea class="form-control" placeholder="Tu mensaje"></textarea>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="button btn">
+                     <a href="#">Contactate conmigo</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <footer>
+      <div class="container">
+         <div class="row">
+            <div class="footer-logo">Ferdinando</div>
+            <div class="social-link">
+               <a href=""><i class="fa fa-facebook"></i></a>
+               <a href=""><i class="fa fa-instagram"></i></a>
+               <a href=""><i class="fa fa-twitter"></i></a>
+               <a href=""><i class="fa fa-linkedin"></i></a>
+               <a href=""><i class="fa fa-github"></i></a>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <section class="copyright">
+      <div class="container">
+         <p>© <span id="year"></span> | Diseñado por Ferdinando Pedrini.</p>
+      </div>
+   </section>
+   <div class="lightbox hide">
+      <span class="close-lightbox fa fa-close"></span>
+      <img src="" alt="portfolio" />
+   </div>
+   <script src="./js/app.js"></script>
+</body>
+
+</html>
